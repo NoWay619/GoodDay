@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> WeatherDeck </title>
+
+
+  <!-- Favicon -->
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Proza+Libre&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+  <!-- bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Custom CSS link  -->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/b0c8a85bbf.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Js link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <section class="title-section" id="title">
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <a class="navbar-brand navbrand" href="#"><i class="fas fa-cloud-sun-rain"></i>WeatherDeck</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Download App</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How's Your Day?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="container-fluid">
+
+
+
+      <!-- title  -->
+
+      <div class="row title-row">
+        <div class="col-lg-6">
+          <h1>Today's Quote</h1>
+          <p class="pt-2 quotes">Illustration of Cloud and rain on <br>dark background. heavy rain,<br> rainy season, paper cut and craft style. vector, illustration.
+
+            I</p>
+            <hr>
+        </div>
+        <div class="col-lg-6">
+          <form class="" action="index.html" method="post">
+            <label class="label" for="">Enter Your Country Name or Zipcode:</label><br>
+
+            <div class="input-group  input-group-sm  mt-3">
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Place Name or Zipcode">
+            </div>
+
+            <div class="form-text">We'll never share your Location with anyone else.</div>
+            <button class="btn btn-dark title-btn" href="#" type="submit" name="button">Search <i class="fas fa-search-location"></i></button>
+
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+
+  <section id="features">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="features-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3>Easy to Use</h3>
+          <p> Very easy to use, Simple user interface</p>
+
+        </div>
+
+        <div class="features-box col-lg-4">
+          <i class="icon fas fa-heartbeat fa-4x"></i>
+          <h3>Healthcare</h3>
+          <p>Calculate your surrounding factor and predict your day?</p>
+        </div>
+
+        <div class="features-box col-lg-4">
+          <i class="icon fas fa-exclamation-triangle fa-4x"></i>
+          <h3>Bad Weather Notification</h3>
+          <p>Give you Early bad weather alert</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <!-- How's your Day features -->
+
+  <section class="calculator-section" id="dayCalculator">
+
+    <div class="container-fluid">
+      <i class="fas fa-receipt fa-4x"></i>
+      <h2>How's your day?</h2>
+      <p>How your's day calculator will predict your day based on your surrounding factor like Air quality, weather and traffic of your area.</p>
+      <button class="btn btn-dark mt-5" type="button" name="button">Calculate your Today prediction </button>
+    </div>
+
+
+
+  </section>
+
+  <!-- Price section -->
+  <section class="price-section" id="price">
+    <div class="container">
+      <div class="pricing-table pricing-three-column row">
+        <div class="plan col-md-6 col-lg-4">
+          <div class="plan-name-bronze">
+            <h2>Free</h2>
+            <span>No Charge</span>
+          </div>
+          <ul>
+            <li class="plan-feature">weather forcast</li>
+            <li class="plan-feature">Air quality index</li>
+
+          </ul>
+        </div>
+        <div "z-index:55;" class="plan col-md-6 col-lg-4">
+          <div class="plan-name-silver">
+            <h2>Basic <span class="badge badge-warning">Popular</span></h2>
+            <span><strike>199₹</strike>
+              <font color="red">99₹ / Month <span class="label label-warning">Sale</span></font>
+            </span>
+          </div>
+          <ul>
+            <li class="plan-feature">weather forcast</li>
+            <li class="plan-feature">Air quality index</li>
+            <li class="plan-feature">Bad weather Alert</li>
+            <li class="plan-feature">Zero Ads</li>
+            <div class="d-flex align-items-end justify-content-center">
+              <li class="plan-feature"><a href="#" class=" btn btn-dark btn-plan-select"><i class="icon-white icon-ok"></i> Buy</a></li>
+            </div>
+          </ul>
+        </div>
+        <div class="plan col-lg-4">
+          <div class="plan-name-gold">
+            <h2>Premium</h2>
+            <span>299₹ / Month</span>
+          </div>
+          <ul>
+            <li class="plan-feature">weather forcast</li>
+            <li class="plan-feature">Air quality index</li>
+            <li class="plan-feature">Bad weather Alert</li>
+            <li class="plan-feature">Zero Ads</li>
+            <li class="plan-feature">How's Your Day calculator</li>
+            <div class="d-flex align-items-end justify-content-center">
+              <li class="plan-feature"><a href="#" class=" btn btn-dark btn-plan-select"><i class="icon-white icon-ok"></i> Buy</a></li>
+            </div>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Download -->
+  <section class="download-section" id="download">
+    <div class="container-fluid">
+      <h2>WeatherDeck is available on both Android and ios plateform.<br> Download our App Now.<i class="far fa-smile-beam"></i></h2>
+
+      <button class="download-btn btn btn-dark mt-5" type="button" name="button"> <i class="fab fa-apple"></i> Download </button>
+      <button class="download-btn btn btn-dark mt-5" type="button" name="button"> <i class="fab fa-google-play"></i> Download </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <!-- Footer -->
+
+  <footer class="Footer-section" id="footer">
+    <div class="container-fluid">
+
+      <i class="f-icon fab fa-twitter"></i>
+      <i class="f-icon fab fa-facebook"></i>
+      <i class="f-icon fab fa-instagram"></i>
+      <i class="f-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 WeatherDeck</p>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
